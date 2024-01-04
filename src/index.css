@@ -1,0 +1,92 @@
+    @import url("https://fonts.googleapis.com/css?family=Roboto");
+    body {
+    margin: 0;
+    font-family: "Roboto";
+    background-color: #200346;
+    }
+
+    .carousel {
+    position: relative;
+    display: flex;
+    height: 35vmax;
+    width: 25vmax;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.5%;
+    }
+
+    .carousel-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+
+    .btnContainer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px;
+    height: 7%;
+    width: 100%; /* Make the container span the entire width */
+    }
+
+    button:nth-child(1) {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: 10px;
+    opacity: 0.7;
+    background-color: #4c00ff;
+    }
+
+    button:nth-child(2) {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: auto;
+    margin-right: 10px;
+    opacity: 0.7;
+    background-color: #4c00ff;
+    }
+
+    button:hover{
+    opacity: 0.8;
+    }
+
+
+    .PersonContainer{
+    display: flex;
+    height: 35vmax;
+    justify-content: space-around;
+    width: 70vw;
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    }
+
+    .PersonDetails{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    background-color: rgb(47, 16, 97);
+    align-items: center;
+    height: 90%;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    }
+
+    .PersonTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    }
