@@ -1,10 +1,10 @@
 import React from 'react'
-import './index.css';
-import Person from './Person';
+import Carousel from './Carousel';
+import { imageData } from './data';
 
 function App() {
   return (
-      <Person />
+       <Carousel images={imageData} />
   );
 }
 
